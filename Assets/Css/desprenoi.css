@@ -1,0 +1,270 @@
+.h2 {
+  color: #010851;
+  text-align: center;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin: 3rem 12rem;
+}
+.container-responsive-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  margin-bottom: 4rem;
+  margin-top: 7rem;
+}
+.container_1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 85rem;
+  width: 100%;
+  padding: 4rem;
+  max-height: 30rem;
+  padding-bottom: 6rem;
+  border-radius: 18.75rem;
+  transition: transform 0.3s ease-in-out;
+  background: linear-gradient(
+    135deg,
+    #abdcff 0%,
+    #a0d7ff 8.82%,
+    #96d3ff 15.94%,
+    #8ccfff 21.69%,
+    #83cbff 26.37%,
+    #79c7ff 30.32%,
+    #70c4ff 33.85%,
+    #67c0ff 37.29%,
+    #5dbcff 40.96%,
+    #53b7ff 45.18%,
+    #48b3ff 50.26%,
+    #3daeff 56.54%,
+    #30a9ff 64.33%,
+    #22a3ff 73.96%,
+    #139dff 85.74%,
+    #0396ff 100%
+  );
+}
+.container_2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 85rem;
+  width: 100%;
+  max-height: 30rem;
+  padding: 4rem;
+  padding-bottom: 5rem;
+  margin-top: -2.5rem;
+  border-radius: 18.75rem;
+  transition: transform 0.3s ease-in-out;
+  background: linear-gradient(
+    135deg,
+    #abdcff 0%,
+    #a0d7ff 8.82%,
+    #96d3ff 15.94%,
+    #8ccfff 21.69%,
+    #83cbff 26.37%,
+    #79c7ff 30.32%,
+    #70c4ff 33.85%,
+    #67c0ff 37.29%,
+    #5dbcff 40.96%,
+    #53b7ff 45.18%,
+    #48b3ff 50.26%,
+    #3daeff 56.54%,
+    #30a9ff 64.33%,
+    #22a3ff 73.96%,
+    #139dff 85.74%,
+    #0396ff 100%
+  );
+}
+.section_1 {
+  max-width: 30rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+.section_1 h1 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+.section_1 p {
+  color: #fff;
+  margin-top: 1.5rem;
+  text-align: justify;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+.container_1 img {
+  max-width: 25rem;
+  width: 100%;
+}
+.container_2 img {
+  max-width: 30rem;
+  width: 100%;
+}
+
+.container_1:hover,
+.container_2:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 1200px) {
+  .container_1,
+  .container_2 {
+    border-radius: 14rem;
+    padding: 3rem;
+  }
+  .container_1 {
+    padding-bottom: 6rem;
+  }
+  .container_1 img {
+    max-width: 23rem;
+  }
+  .container_2 img {
+    max-width: 27rem;
+  }
+  .section_1 h1 {
+    font-size: 2.8rem;
+  }
+  .section_1 p {
+    max-width: 25rem;
+    font-size: 0.9rem;
+  }
+}
+
+.team-member {
+  text-align: center;
+  margin: 3rem 5rem;
+}
+
+.member-function,
+.member-name {
+  color: #010851;
+  font-size: 1.5rem;
+  font-style: normal;
+  line-height: 140%;
+}
+
+.member-function {
+  font-weight: 700;
+  margin-top: 1.5rem;
+}
+
+.member-name {
+  font-weight: 400;
+  margin-top: 0.75rem;
+}
+
+.member-photo-1,
+.member-photo-2,
+.member-photo-3,
+.member-photo-4,
+.member-photo-5,
+.member-photo-6,
+.member-photo-7,
+.member-photo-8 {
+  width: 14.875rem;
+  height: 14.875rem;
+  border-radius: 50%;
+  background-size: cover;
+  margin: 0 auto;
+  transition: transform 0.3s ease-in-out;
+}
+.member-photo-1:hover,
+.member-photo-2:hover,
+.member-photo-3:hover,
+.member-photo-4:hover,
+.member-photo-5:hover,
+.member-photo-6:hover,
+.member-photo-7:hover,
+.member-photo-8:hover {
+  transform: scale(1.1);
+}
+.member-photo-1 {
+  background-image: url("/Assets/Img/person\ 1.svg");
+}
+
+.member-photo-2 {
+  background-image: url("/Assets/Img/person\ 2.svg");
+}
+
+.member-photo-3 {
+  background-image: url("/Assets/Img/person\ 3.svg");
+}
+
+.member-photo-4 {
+  background-image: url("/Assets/Img/person\ 4.svg");
+}
+
+.member-photo-5 {
+  background-image: url("/Assets/Img/person\ 5.svg");
+}
+
+.member-photo-6 {
+  background-image: url("/Assets/Img/person\ 6.svg");
+}
+
+.member-photo-7 {
+  background-image: url("/Assets/Img/person\ 8.svg");
+}
+.member-photo-8 {
+  background-image: url("/Assets/Img/person\ 7.svg");
+}
+
+.container-team {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100rem;
+}
+@media screen and (max-width: 1050px) {
+  .container-responsive-1 {
+    margin-top: 7rem;
+  }
+  .container_1,
+  .container_2 {
+    display: flex;
+    flex-direction: column;
+    max-height: fit-content;
+    margin: 2rem 0rem;
+    max-width: 45rem;
+    padding: 5rem;
+    text-align: center;
+    border-radius: 3rem;
+  }
+
+  .container_1 p,
+  .container_2 p {
+    text-align: center;
+  }
+  .container_1 img {
+    display: none;
+  }
+
+  .container_1 {
+    margin-top: 0px;
+  }
+  .h2 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 875px) {
+  .container_1,
+  .container_2 {
+    padding: 2rem;
+  }
+  .h2 {
+    margin: 0rem;
+  }
+}

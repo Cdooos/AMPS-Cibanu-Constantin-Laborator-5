@@ -1,0 +1,58 @@
+.search-section {
+  margin-top: 100px;
+}
+
+.search-form {
+  background-color: #fff;
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-check-inline {
+  margin-right: 20px;
+}
+
+.form-control::placeholder {
+  color: #adb5bd;
+}
+
+.tickets-list {
+  margin-top: 50px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.ticket-item {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-item:hover {
+  transform: translateY(-5px);
+}
+
+.ticket-item strong {
+  color: #010851;
+}
+.h1 {
+  color: #010851;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin: 2rem 1rem;
+}
+@media screen and (max-width: 768px) {
+  .h1 {
+    font-size: 2.5rem;
+    margin: 1rem;
+  }
+}

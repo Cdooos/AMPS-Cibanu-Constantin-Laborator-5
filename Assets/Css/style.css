@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #fff;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23010851' stroke-width='3.2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.offcanvas-header {
+  border-bottom: 1.2px solid #010851;
+}
+.logo {
+  max-height: 2rem;
+}
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #f4a261;
+  --bs-btn-border-color: #f4a261;
+  --bs-btn-hover-color: #f4a261;
+  --bs-btn-hover-bg: #fff;
+  --bs-btn-hover-border-color: #f4a261;
+  --bs-btn-focus-shadow-rgb: 244, 162, 97;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #f4a261;
+  --bs-btn-active-border-color: #f4a261;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #f4a261;
+  --bs-btn-disabled-border-color: #f4a261;
+}
+.btn-outline-secondary {
+  --bs-btn-color: #010851;
+  --bs-btn-bg: #fff;
+  --bs-btn-border-color: #45486833;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #010851;
+  --bs-btn-hover-border-color: #45486833;
+  --bs-btn-focus-shadow-rgb: 244, 162, 97;
+  --bs-btn-active-color: #010851;
+  --bs-btn-active-bg: #fff;
+  --bs-btn-active-border-color: #45486833;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #010851;
+  --bs-btn-disabled-bg: #fff;
+  --bs-btn-disabled-border-color: #45486833;
+}
+
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 991px) {
+  .navbar {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .logo {
+    max-height: 1.8rem;
+  }
+}
+@media screen and (max-width: 576px) {
+}
+
+footer {
+  background: #010851;
+  color: white;
+  padding: 3rem;
+}
+
+footer .logo img {
+  max-height: 2rem;
+}
+
+footer hr {
+  border-color: #ffffff6d;
+  margin: 1rem 0;
+}
+
+.email-form {
+  display: flex;
+}
+
+.title-list {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.options {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.options li {
+  margin-bottom: 0.5rem;
+}
+
+.options li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease-in-out;
+}
+
+.options li a:hover {
+  color: #f4a261;
+}
+
+.trademark {
+  color: #ffffff80;
+  font-size: 0.875rem;
+}
+
+.image-container img {
+  height: 1.6rem;
+}
+.input-group {
+  max-width: 26rem;
+}
